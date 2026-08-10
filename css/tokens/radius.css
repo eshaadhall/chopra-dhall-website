@@ -1,0 +1,14 @@
+:root{
+  --radius-none:0px;
+  --radius-xs:2px;
+  --radius-sm:4px;
+  --radius-md:8px;
+  --radius-lg:14px;
+  --radius-xl:22px;
+  /* The mark is a stadium; pill shapes are the brand's one soft gesture. */
+  --radius-pill:999px;
+
+  --border-width:1px;
+  --border-width-thick:2px;
+  --rule:1px solid var(--border-subtle);
+}

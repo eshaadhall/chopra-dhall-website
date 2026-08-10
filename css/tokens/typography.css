@@ -1,0 +1,42 @@
+:root{
+  --text-2xs:11px;
+  --text-xs:12px;
+  --text-sm:14px;
+  --text-base:16px;
+  --text-md:18px;
+  --text-lg:21px;
+  --text-xl:26px;
+  --text-2xl:32px;
+  --text-3xl:40px;
+  --text-4xl:52px;
+  --text-5xl:66px;
+  --text-6xl:84px;
+
+  --leading-tight:1.06;
+  --leading-snug:1.2;
+  --leading-normal:1.5;
+  --leading-relaxed:1.65;
+
+  --weight-light:300;
+  --weight-regular:400;
+  --weight-medium:500;
+  --weight-semibold:600;
+  --weight-bold:700;
+
+  /* Wide tracking is the brand's signature — it comes from the wordmark. */
+  --tracking-brand:.22em;
+  --tracking-eyebrow:.16em;
+  --tracking-wide:.04em;
+  --tracking-normal:0;
+  --tracking-tight:-.015em;
+
+  /* Composite roles */
+  --type-display:var(--weight-light) var(--text-5xl)/var(--leading-tight) var(--font-display);
+  --type-h1:var(--weight-light) var(--text-4xl)/var(--leading-tight) var(--font-display);
+  --type-h2:var(--weight-regular) var(--text-2xl)/var(--leading-snug) var(--font-display);
+  --type-h3:var(--weight-medium) var(--text-lg)/var(--leading-snug) var(--font-display);
+  --type-body:var(--weight-regular) var(--text-base)/var(--leading-relaxed) var(--font-text);
+  --type-body-sm:var(--weight-regular) var(--text-sm)/var(--leading-normal) var(--font-text);
+  --type-label:var(--weight-semibold) var(--text-xs)/1.2 var(--font-text);
+  --type-mono:var(--weight-regular) var(--text-sm)/1.4 var(--font-mono);
+}

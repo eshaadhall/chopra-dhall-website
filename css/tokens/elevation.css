@@ -1,0 +1,13 @@
+:root{
+  --shadow-none:none;
+  --shadow-xs:0 1px 2px rgba(4,20,26,.06);
+  --shadow-sm:0 1px 3px rgba(4,20,26,.08),0 1px 2px rgba(4,20,26,.04);
+  --shadow-md:0 4px 12px rgba(4,20,26,.08),0 1px 3px rgba(4,20,26,.05);
+  --shadow-lg:0 12px 32px rgba(4,20,26,.10),0 2px 8px rgba(4,20,26,.05);
+  --shadow-xl:0 24px 60px rgba(4,20,26,.14);
+  --shadow-inset:inset 0 1px 0 rgba(255,255,255,.5);
+  --shadow-focus:0 0 0 3px rgba(59,163,176,.42);
+  /* Vignette lifted from the logo plate — used behind full-bleed imagery. */
+  --vignette:radial-gradient(120% 90% at 50% 45%,rgba(10,95,107,.55) 0%,rgba(2,25,30,.92) 78%);
+  --scrim-bottom:linear-gradient(to top,rgba(2,25,30,.88) 0%,rgba(2,25,30,0) 70%);
+}

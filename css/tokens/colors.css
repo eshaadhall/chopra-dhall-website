@@ -1,0 +1,94 @@
+:root{
+  /* ---- Brand teal — sampled from the CDG mark (#064952) ---- */
+  --teal-950:#02191E;
+  --teal-900:#032B32;
+  --teal-800:#043B44;
+  --teal-700:#064952;
+  --teal-600:#0A5F6B;
+  --teal-500:#10808F;
+  --teal-400:#3BA3B0;
+  --teal-300:#7FC6CF;
+  --teal-200:#B7E0E5;
+  --teal-100:#DEF0F2;
+  --teal-050:#F1F9FA;
+
+  /* ---- Ink — cool near-black, from the logo plate vignette ---- */
+  --ink-950:#00090D;
+  --ink-900:#04141A;
+  --ink-800:#0D2127;
+  --ink-700:#1B3138;
+  --ink-600:#3A5058;
+  --ink-500:#5C7178;
+  --ink-400:#87999F;
+  --ink-300:#B2C0C4;
+  --ink-200:#D5DEE0;
+  --ink-100:#E9EFF0;
+  --ink-050:#F5F8F8;
+  --white:#FFFFFF;
+
+  /* ---- Indigo — denim / indigo-recovery line ---- */
+  --indigo-700:#1B2F63;
+  --indigo-600:#26418F;
+  --indigo-500:#3C5CB8;
+  --indigo-200:#C3CEEC;
+  --indigo-050:#EFF2FB;
+
+  /* ---- Amber — signal / highlight, used sparingly ---- */
+  --amber-700:#8A5406;
+  --amber-600:#C07A10;
+  --amber-500:#E39A2B;
+  --amber-200:#F6DCAE;
+  --amber-050:#FDF6E9;
+
+  /* ---- Semantic status ---- */
+  --green-600:#16794F;
+  --green-500:#1E9A66;
+  --green-100:#DCF0E7;
+  --red-600:#A9271B;
+  --red-500:#C93B2C;
+  --red-100:#FBE1DE;
+
+  /* ================= Semantic aliases ================= */
+  --brand:var(--teal-700);
+  --brand-strong:var(--teal-900);
+  --brand-soft:var(--teal-100);
+  --accent:var(--indigo-600);
+  --signal:var(--amber-500);
+
+  --text-heading:var(--ink-900);
+  --text-body:var(--ink-700);
+  --text-muted:var(--ink-500);
+  --text-faint:var(--ink-400);
+  --text-invert:var(--white);
+  --text-invert-muted:var(--teal-200);
+  --text-link:var(--teal-600);
+  --text-link-hover:var(--teal-800);
+  --text-on-brand:var(--white);
+
+  --surface-page:var(--white);
+  --surface-sunken:var(--ink-050);
+  --surface-card:var(--white);
+  --surface-raised:var(--white);
+  --surface-brand:var(--teal-700);
+  --surface-brand-deep:var(--teal-950);
+  --surface-brand-soft:var(--teal-050);
+  --surface-inverse:var(--ink-900);
+  --surface-overlay:rgba(2,25,30,.62);
+
+  --border-subtle:var(--ink-100);
+  --border-default:var(--ink-200);
+  --border-strong:var(--ink-300);
+  --border-brand:var(--teal-700);
+  --border-invert:rgba(255,255,255,.18);
+
+  --state-success:var(--green-500);
+  --state-success-bg:var(--green-100);
+  --state-warning:var(--amber-500);
+  --state-warning-bg:var(--amber-050);
+  --state-danger:var(--red-500);
+  --state-danger-bg:var(--red-100);
+  --state-info:var(--teal-500);
+  --state-info-bg:var(--teal-100);
+
+  --focus-ring:var(--teal-400);
+}
