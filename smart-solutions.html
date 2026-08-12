@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Solutions — Chopra Dhall Group</title>
+<meta name="description" content="A brand-agnostic Industry 4.0 platform interconnecting every machine on the floor for real-time reporting and predictive insight.">
+<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+<header class="cdg-header-inner">
+  <a href="./index.html"><img src="./assets/images/logo-dark.png" alt="Chopra Dhall Group"></a>
+  <button type="button" class="cdg-nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+    <span class="cdg-nav-toggle-bar"></span><span class="cdg-nav-toggle-bar"></span><span class="cdg-nav-toggle-bar"></span>
+  </button>
+  <nav class="cdg-nav-inner" id="site-nav">
+    <a href="./machinery.html">Machinery</a>
+    <a href="./service-support.html">Service &amp; support</a>
+    <a href="./index.html#rfq" class="cdg-cta">Request a quote</a>
+  </nav>
+</header>
+
+<section class="cdg-page-hero">
+  <div class="cdg-container cdg-reveal">
+    <div class="eyebrow">Smart solutions</div>
+    <h1>Every machine on the floor, reporting in real time.</h1>
+    <p>A brand-agnostic Industry 4.0 platform. It interconnects machines already on your floor — not just the ones CDG supplied — for real-time reporting and predictive insight.</p>
+  </div>
+</section>
+
+<section class="cdg-inner-section">
+  <div class="cdg-container">
+    <div class="eyebrow">Live from the floor</div>
+    <h2>One console, every line.</h2>
+
+    <div class="cdg-console cdg-reveal">
+      <div class="cdg-console-head">
+        <span class="title">Line monitoring console</span>
+        <span class="cdg-console-live"><span class="cdg-live-dot"></span>Live</span>
+      </div>
+
+      <div class="cdg-gauge-row">
+        <div class="cdg-gauge">
+          <svg width="120" height="94" viewBox="0 0 120 94">
+            <g transform="rotate(135 60 60)">
+              <circle cx="60" cy="60" r="55" fill="none" stroke-width="10" stroke-linecap="round" stroke="rgba(255,255,255,.14)" stroke-dasharray="259.18 345.58"></circle>
+              <circle cx="60" cy="60" r="55" fill="none" stroke-width="10" stroke-linecap="round" stroke="var(--amber-500)" stroke-dasharray="243.63 345.58"></circle>
+            </g>
+            <text x="60" y="60" text-anchor="middle" class="gauge-value">94</text>
+            <text x="60" y="74" text-anchor="middle" class="gauge-unit">% UPTIME</text>
+          </svg>
+          <div class="gauge-label">Line uptime</div>
+        </div>
+        <div class="cdg-gauge">
+          <svg width="120" height="94" viewBox="0 0 120 94">
+            <g transform="rotate(135 60 60)">
+              <circle cx="60" cy="60" r="55" fill="none" stroke-width="10" stroke-linecap="round" stroke="rgba(255,255,255,.14)" stroke-dasharray="259.18 345.58"></circle>
+              <circle cx="60" cy="60" r="55" fill="none" stroke-width="10" stroke-linecap="round" stroke="var(--teal-400)" stroke-dasharray="225.49 345.58"></circle>
+            </g>
+            <text x="60" y="60" text-anchor="middle" class="gauge-value">87</text>
+            <text x="60" y="74" text-anchor="middle" class="gauge-unit">% OEE</text>
+          </svg>
+          <div class="gauge-label">Overall equipment effectiveness</div>
+        </div>
+        <div class="cdg-gauge">
+          <svg width="120" height="94" viewBox="0 0 120 94">
+            <g transform="rotate(135 60 60)">
+              <circle cx="60" cy="60" r="55" fill="none" stroke-width="10" stroke-linecap="round" stroke="rgba(255,255,255,.14)" stroke-dasharray="259.18 345.58"></circle>
+              <circle cx="60" cy="60" r="55" fill="none" stroke-width="10" stroke-linecap="round" stroke="var(--green-500)" stroke-dasharray="259.18 345.58"></circle>
+            </g>
+            <text x="60" y="60" text-anchor="middle" class="gauge-value">12/12</text>
+            <text x="60" y="74" text-anchor="middle" class="gauge-unit">CHAMBERS</text>
+          </svg>
+          <div class="gauge-label">Chambers reporting</div>
+        </div>
+      </div>
+
+      <table class="cdg-console-table">
+        <thead>
+          <tr>
+            <th>Line</th>
+            <th>Model</th>
+            <th>Status</th>
+            <th>Last sync</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Continuous bleaching / pretreatment</td>
+            <td class="mono">CBR-3400</td>
+            <td><span class="cdg-status-pill live"><span class="cdg-live-dot" style="width:6px;height:6px"></span>Live</span></td>
+            <td class="mono">2 min ago</td>
+          </tr>
+          <tr>
+            <td>Stenter and heat setting</td>
+            <td class="mono">STN-3400</td>
+            <td><span class="cdg-status-pill live"><span class="cdg-live-dot" style="width:6px;height:6px"></span>Live</span></td>
+            <td class="mono">Just now</td>
+          </tr>
+          <tr>
+            <td>Singeing and desizing</td>
+            <td class="mono">SGE-1800</td>
+            <td><span class="cdg-status-pill live"><span class="cdg-live-dot" style="width:6px;height:6px"></span>Live</span></td>
+            <td class="mono">5 min ago</td>
+          </tr>
+          <tr>
+            <td>Chain mercerizing — third-party line</td>
+            <td class="mono">MRC-2200</td>
+            <td><span class="cdg-status-pill idle">Idle</span></td>
+            <td class="mono">3 hr ago</td>
+          </tr>
+          <tr>
+            <td>Sanforizing</td>
+            <td class="mono">SNF-3000</td>
+            <td><span class="cdg-status-pill live"><span class="cdg-live-dot" style="width:6px;height:6px"></span>Live</span></td>
+            <td class="mono">1 min ago</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:var(--text-xs);color:var(--text-faint);margin:12px 0 0">Illustrative console. Metrics and reporting cadence are configured per mill.</p>
+  </div>
+</section>
+
+<section class="cdg-inner-section sunken">
+  <div class="cdg-container">
+    <div class="eyebrow">Predictive insight</div>
+    <h2>Built to connect, not to lock in.</h2>
+    <div class="cdg-line-grid cdg-reveal">
+      <div class="cdg-line-card">
+        <h3>Real-time reporting</h3>
+        <p>Per-chamber temperature, line speed and throughput reported back as the line runs, not batched overnight.</p>
+      </div>
+      <div class="cdg-line-card">
+        <h3>Predictive maintenance</h3>
+        <p>Flags drift in motor load, steam demand or chamber temperature before it becomes downtime.</p>
+      </div>
+      <div class="cdg-line-card">
+        <h3>Brand-agnostic integration</h3>
+        <p>Open protocol connects to machines already on your floor — CDG-supplied or not — without a forklift upgrade.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cdg-retrofit-band">
+  <div class="cdg-retrofit-inner cdg-reveal">
+    <div>
+      <div class="eyebrow">Retrofit, not rebuild</div>
+      <h2>Connects to the line you're already running.</h2>
+    </div>
+    <div class="cdg-retrofit-actions">
+      <a class="secondary" href="./service-support.html#contact">Already a customer — talk to your account manager</a>
+      <a class="primary" href="./index.html#rfq">Request a line audit</a>
+    </div>
+  </div>
+</section>
+
+<footer class="cdg-footer">
+  <div class="cdg-footer-inner">
+    <div>
+      <img src="./assets/images/logo.png" alt="Chopra Dhall Group">
+      <div class="contact">dhall@dhallgroup.com · +91 99798 60305</div>
+    </div>
+    <div class="copyright">© 1959–2026 Chopra Dhall Group. Ahmedabad, India.</div>
+  </div>
+</footer>
+
+<script src="./js/nav.js"></script>
+</body>
+</html>

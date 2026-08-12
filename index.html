@@ -10,8 +10,11 @@
 <body>
 
 <header class="cdg-header" id="site-header">
-  <img src="./assets/images/logo-lockup-white.svg" alt="Chopra Dhall Group">
-  <nav class="cdg-nav">
+  <img src="./assets/images/logo.png" alt="Chopra Dhall Group">
+  <button type="button" class="cdg-nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+    <span class="cdg-nav-toggle-bar"></span><span class="cdg-nav-toggle-bar"></span><span class="cdg-nav-toggle-bar"></span>
+  </button>
+  <nav class="cdg-nav" id="site-nav">
     <a href="./machinery.html">Machinery</a>
     <a href="./service-support.html">Service &amp; support</a>
     <a href="#rfq" class="cdg-cta">Request a line audit</a>
@@ -56,7 +59,7 @@
           <span>Explore machinery →</span>
         </div>
       </a>
-      <a class="cdg-tile" href="./machinery.html#other-lines">
+      <a class="cdg-tile" href="./sustainability-solutions.html">
         <div class="cdg-tile-image tile-sustainability"></div>
         <div class="cdg-tile-scrim"></div>
         <div class="cdg-tile-label">
@@ -65,7 +68,7 @@
           <span>See the numbers →</span>
         </div>
       </a>
-      <a class="cdg-tile" href="./machinery.html#other-lines">
+      <a class="cdg-tile" href="./smart-solutions.html">
         <div class="cdg-tile-image tile-smart"></div>
         <div class="cdg-tile-scrim"></div>
         <div class="cdg-tile-label">
@@ -163,13 +166,14 @@
 <footer class="cdg-footer">
   <div class="cdg-footer-inner">
     <div>
-      <img src="./assets/images/logo-mark-white.svg" alt="Chopra Dhall Group">
+      <img src="./assets/images/logo.png" alt="Chopra Dhall Group">
       <div class="contact">dhall@dhallgroup.com · +91 99798 60305</div>
     </div>
     <div class="copyright">© 1959–2026 Chopra Dhall Group. Ahmedabad, India.</div>
   </div>
 </footer>
 
+<script src="./js/nav.js"></script>
 <script src="./js/main.js"></script>
 </body>
 </html>
