@@ -11,7 +11,10 @@
 
 <header class="cdg-header-inner">
   <a href="./index.html"><img src="./assets/images/logo-dark.png" alt="Chopra Dhall Group"></a>
-  <nav class="cdg-nav-inner">
+  <button type="button" class="cdg-nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+    <span class="cdg-nav-toggle-bar"></span><span class="cdg-nav-toggle-bar"></span><span class="cdg-nav-toggle-bar"></span>
+  </button>
+  <nav class="cdg-nav-inner" id="site-nav">
     <a href="#ranges">Machinery</a>
     <a href="./service-support.html">Service &amp; support</a>
     <a href="./index.html#rfq" class="cdg-cta">Request a quote</a>
@@ -179,6 +182,7 @@
   </div>
 </footer>
 
+<script src="./js/nav.js"></script>
 <script src="./js/machinery.js"></script>
 </body>
 </html>
